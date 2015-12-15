@@ -45,8 +45,7 @@ class SSCameraViewController: UIViewController, SSCameraViewDelegate {
     
     func captureButtonPressed() {
         camera.takePhoto { (image) -> Void in
-            print("captured photo size:", image?.size)
-            self.camera.startCapture()
+            let _ = SSImageHelper.scaleImage(image!, isFrontCamera: self.camera.isUsingFront)
         }
     }
 

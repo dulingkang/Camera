@@ -17,6 +17,7 @@
 		3AA5D1941C1A7A5D00889B9E /* SSCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA5D1931C1A7A5D00889B9E /* SSCameraView.swift */; };
 		3AA5D1961C1A7A7B00889B9E /* SSDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA5D1951C1A7A7B00889B9E /* SSDefine.swift */; };
 		3AA5D1981C1A7EF800889B9E /* SSExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA5D1971C1A7EF800889B9E /* SSExtention.swift */; };
+		3AC651B31C1FFF5A009F27D1 /* SSImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC651B21C1FFF5A009F27D1 /* SSImageHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		3AA5D1931C1A7A5D00889B9E /* SSCameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSCameraView.swift; sourceTree = "<group>"; };
 		3AA5D1951C1A7A7B00889B9E /* SSDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSDefine.swift; sourceTree = "<group>"; };
 		3AA5D1971C1A7EF800889B9E /* SSExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSExtention.swift; sourceTree = "<group>"; };
+		3AC651B21C1FFF5A009F27D1 /* SSImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSImageHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				3AA5D1931C1A7A5D00889B9E /* SSCameraView.swift */,
 				3AA5D1951C1A7A7B00889B9E /* SSDefine.swift */,
 				3AA5D1971C1A7EF800889B9E /* SSExtention.swift */,
+				3AC651B21C1FFF5A009F27D1 /* SSImageHelper.swift */,
 			);
 			name = SSCameraClass;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				3AA5D18E1C1A792700889B9E /* SSCamera.swift in Sources */,
 				3AA5D17B1C1A78EA00889B9E /* AppDelegate.swift in Sources */,
 				3AA5D1941C1A7A5D00889B9E /* SSCameraView.swift in Sources */,
+				3AC651B31C1FFF5A009F27D1 /* SSImageHelper.swift in Sources */,
 				3AA5D1981C1A7EF800889B9E /* SSExtention.swift in Sources */,
 				3AA5D1961C1A7A7B00889B9E /* SSDefine.swift in Sources */,
 			);
@@ -314,6 +318,7 @@
 				3AA5D18B1C1A78EA00889B9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

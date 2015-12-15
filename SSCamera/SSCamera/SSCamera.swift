@@ -16,6 +16,7 @@ class SSCamera: NSObject{
     var captureDevice: AVCaptureDevice!
     var stillImageOutput: AVCaptureStillImageOutput!
     var input: AVCaptureDeviceInput!
+    var isUsingFront = true
     var cameraPosition: AVCaptureDevicePosition {
         get {
             return input.device.position
@@ -92,8 +93,10 @@ class SSCamera: NSObject{
         var currentCameraPosition = self.cameraPosition
         if currentCameraPosition == AVCaptureDevicePosition.Back {
             currentCameraPosition = AVCaptureDevicePosition.Front
+            isUsingFront = true
         } else {
             currentCameraPosition = AVCaptureDevicePosition.Back
+            isUsingFront = false
         }
         let devices = AVCaptureDevice.devicesWithMediaType(AVMediaTypeVideo)
         var afterSwitchCamera: AVCaptureDevice?
